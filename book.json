@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "chapter-fold",
         "search-plus"
     ]
 }
