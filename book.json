@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "intopic-toc",
+        "toc",
         "search-plus"
     ]
 }
