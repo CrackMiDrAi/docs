@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "toc",
+        "chapter-fold",
         "search-plus"
     ]
 }
