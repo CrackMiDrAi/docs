@@ -13,3 +13,13 @@
 * ~~刷入 TWRP [BV1yu411Z7Ud](https://www.bilibili.com/video/BV1yu411Z7Ud)~~
 
 *视频均已删除*
+
+# 各种文件
+
+* [老八下载站](https://dl.teio.tk/MIRROR_CN/Xiaomi/Archytas/) [线路二](https://dl.teio.tk/YHC_GL/01-%E5%88%B7%E6%9C%BA%E5%8C%85/%E5%B0%8F%E7%B1%B3/%E5%B0%8F%E7%88%B1%E8%80%81%E5%B8%88/) [线路三](https://dl.teio.tk/MIRROR_GL/Archived/Xiaoai-Teacher/)
+* [老狼下载站](https://dl.yupaiharbin.com/MICO_ALIYUN/%E5%B0%8F%E7%88%B1%E8%80%81%E5%B8%884G%E6%8A%98%E8%85%BE/) [线路二](https://dl.yupaiharbin.com/MI_AI_OD/)
+* [MisaLiu 下载站](https://od.misaliu.top/Files/%E5%B0%8F%E7%88%B1%E8%80%81%E5%B8%88/)
+
+# 各种应用
+
+* 小爱老师折腾推荐应用 [https://www.coolapk.com/album/31310012](https://www.coolapk.com/album/31310012)
