@@ -1,6 +1,7 @@
 * [首页](README.md)
 
 * [各种链接](各种链接/README.md)
+    * [各种 Magisk 模块](各种链接/各种Magisk模块.md)
 
 * [各种文档](各类文档/README.md)
     * [互助文档](各类文档/互助文档/README.md)
