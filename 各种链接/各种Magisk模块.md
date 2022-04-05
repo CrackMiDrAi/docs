@@ -18,4 +18,4 @@
 | 小爱老师辅助模块 | [bbs.midrai.cn/d/71](https://bbs.midrai.cn/d/71) | 刷入了字体模块的用户请刷入不修复 emoji 的版本。手动修改过系统文件的用户谨慎刷入 |
 | Riru | [github.com/RikkaApps/Riru](https://github.com/RikkaApps/Riru) | 由于 Mgaisk 已正式发布 Zygisk，该模块已停更。如果在开启 Zygisk 的设备上使用该模块，模块将不生效。 |
 | LSPosed | [github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) | 支持 Riru 和 Zygisk，下载时请选择对应版本。需要手动安装独立的模块管理器才可正常运作。 |
-| Viper4Android | [github.com/Magisk-Modules-Repo/ViPER4Android-FX] | 详细安装步骤见 [bbs.midrai.cn/d/103](https://bbs.midrai.cn/d/103) |
+| Viper4Android | [github.com/Magisk-Modules-Repo/ViPER4Android-FX](https://github.com/Magisk-Modules-Repo/ViPER4Android-FX) | 详细安装步骤见 [bbs.midrai.cn/d/103](https://bbs.midrai.cn/d/103) |
