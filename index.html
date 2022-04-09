@@ -8,6 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css">
+  <style>
+    #dark_mode {
+        position: absolute;
+        right: 24px;
+        top: 18px;
+    }
+    #dark_mode > label {
+      background: #42b983;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -15,7 +25,6 @@
     window.$docsify = {
       name: 'CrackMiDrAiDocs',
       repo: 'https://github.com/CrackMiDrAi/docs',
-      themeColor: '#42b983',
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 4,
