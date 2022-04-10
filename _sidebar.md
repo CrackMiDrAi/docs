@@ -1,5 +1,7 @@
 * [首页](README.md)
 
+* [免责声明](免责声明.md)
+
 * [各种链接](各种链接/README.md)
     * [各种 Magisk 模块](各种链接/各种Magisk模块.md)
 
