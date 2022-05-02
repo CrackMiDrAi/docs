@@ -4,7 +4,7 @@
 
 * [各种链接](各种链接/README.md)
     * [各种 Magisk 模块](各种链接/各种Magisk模块.md)
-    * [各种 GSI](各种链接/各种 GSI.md)
+    * [各种 GSI](%E5%90%84%E7%A7%8D%E9%93%BE%E6%8E%A5/%E5%90%84%E7%A7%8D%20GSI.md)
 
 * [各种文档](各类文档/README.md)
     * [互助文档](各类文档/互助文档/README.md)
