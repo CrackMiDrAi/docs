@@ -5,6 +5,7 @@
 * [破解教程](破解教程/README.md)
     * [小白向教程](破解教程/%E5%B0%8F%E7%99%BD%E5%90%91%E6%95%99%E7%A8%8B.md)
     * [破解包更新日志](破解教程/CHANGELOG.md)
+    * [鸣谢名单](破解教程/CREDITS.md)
 
 * [各种链接](各种链接/README.md)
     * [各种 Magisk 模块](各种链接/各种Magisk模块.md)
