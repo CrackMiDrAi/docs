@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/_static/vue.css">
   <link rel="stylesheet" href="/_static/darkmode.style.min.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6199242889632434" crossorigin="anonymous"></script>
   <style>
     .search {
       border-bottom: 1px solid rgba(0,0,0,.07) !important;
@@ -33,6 +34,9 @@
 </head>
 <body>
   <div id="app"></div>
+  <!-- These plugins should be load first -->
+  <script src="/_static/adsense.min.js"></script>
+  <!-- Docsify configs -->
   <script>
     window.$docsify = {
       name: 'CrackMiDrAiDocs',
@@ -58,7 +62,11 @@
         nextText: '下一章',
         crossChapter: true,
         crossChapterText: true
-      }
+      },
+      
+      plugins: [
+        DocsifyAds.create('ca-pub-6199242889632434')
+      ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -68,5 +76,6 @@
   <script src="/_static/docsify-copy-code.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="/_static/darkmode.index.min.js"></script>
+  <script src="/_static/referrer-detect.js"></script>
 </body>
 </html>
