@@ -72,13 +72,13 @@
 
       plugins: [
         function(hook, vm) {
-          hook.beforeEach(function(html) {
+          hook.afterEach(function(html) {
             const pageEditUrl = 'https://github.com/CrackMiDrAi/docs/blob/main/' + vm.route.file;
             const footer = [
                 '<hr/>',
                 '<footer>',
-                '<p>上次修改于：{docsify-updated}</p>',
-                '<p><a href="' + pageEditUrl + '">📝 在 GitHub 上编辑</a></p>',
+                /* '<p>上次修改于：{docsify-updated}</p>', */
+                '<p>文档有问题？<a href="' + pageEditUrl + '">📝 在 GitHub 上编辑</a></p>',
                 '<br/>',
                 '<p><a href="https://github.com/CrackMiDrAi" target="_blank">CrackMiDrAi</a> &copy;2022-2023</p>',
                 '<p>Powered by <a href="https://docsify.js.org/" target="_blank">docsify v' + window.Docsify.version + '</a></p>',
