@@ -32,3 +32,5 @@
 
 在群文件的驱动与工具文件夹的“小爱老师电脑破解”压缩包内。
 ```
+
+除标准 Markdown 格式外，您还可以参阅 [docsify 的 Markdown 语法扩展](https://docsify.js.org/#/zh-cn/helpers?id=%e6%96%87%e6%a1%a3%e5%8a%a9%e6%89%8b)。
