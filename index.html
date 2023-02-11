@@ -8,8 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/_static/vue.css">
   <link rel="stylesheet" href="/_static/darkmode.style.min.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6199242889632434" crossorigin="anonymous"></script>
   <style>
+    .markdown-section footer {
+      color: #858585;
+    }
+    .markdown-section footer p {
+      margin: 0;
+      line-height: 1.4rem;
+    }
+    
+    body.close main .sidebar-toggle {
+      background-color: transparent;
+    }
+    
     .search {
       border-bottom: 1px solid rgba(0,0,0,.07) !important;
     }
@@ -23,9 +34,9 @@
     }
 
     #dark_mode {
-        position: absolute;
-        right: 14px;
-        top: 18px;
+      position: absolute;
+      right: 14px;
+      top: 18px;
     }
     #dark_mode > label {
       background: #42b983;
@@ -35,7 +46,6 @@
 <body>
   <div id="app"></div>
   <!-- These plugins should be load first -->
-  <script src="/_static/adsense.min.js"></script>
   <!-- Docsify configs -->
   <script>
     window.$docsify = {
@@ -44,6 +54,7 @@
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 4,
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
@@ -57,7 +68,23 @@
       },
 
       plugins: [
-        DocsifyAds.create('ca-pub-6199242889632434')
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            const pageEditUrl = 'https://github.com/CrackMiDrAi/docs/blob/main/' + vm.route.file;
+            const footer = [
+                '<hr/>',
+                '<footer>',
+                '<p>上次修改于：{docsify-updated}</p>',
+                '<p><a href="' + pageEditUrl + '">📝 在 GitHub 上编辑</a></p>',
+                '<br/>',
+                '<p><a href="https://github.com/CrackMiDrAi" target="_blank">CrackMiDrAi</a> &copy;2022-2023</p>',
+                '<p>Powered by <a href="https://docsify.js.org/" target="_blank">docsify v' + window.Docsify.version + '</a></p>',
+                '</footer>'
+            ].join('');
+    
+            return html + footer;
+          });
+        }
       ]
     }
   </script>
