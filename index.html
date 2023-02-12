@@ -11,13 +11,35 @@
   <style>
     .markdown-section footer {
       margin-bottom: 1.2rem;
-      color: #858585;
+    }
+    .markdown-section footer, .markdown-section footer p {
+      color: #888888f0;
     }
     .markdown-section footer p {
       margin: 0;
       line-height: 1.4rem;
     }
-    
+
+    .markdown-section strong,
+    .markdown-section del,
+    .markdown-section li {
+      color: var(--text_color, #34495e);
+    }
+    .markdown-section strong {
+      text-shadow: 0px 0px var(--text_color, #34495e);
+    }
+
+    .markdown-section code {
+      background-color: var(--docsify_dark_mode_btn, #f8f8f8);
+    }
+    .markdown-section pre code {
+      background-color: #f8f8f8;
+    }
+
+    .markdown-section hr {
+        border-bottom: 1px solid #88888860;
+    }
+
     body.close main .sidebar-toggle {
       background-color: transparent;
     }
@@ -39,13 +61,14 @@
       right: 14px;
       top: 18px;
     }
-    #dark_mode > label {
-      background: #42b983;
+    #dark_mode > label,
+    #dark_mode > input:checked + label {
+      background-color: var(--theme-color, #42b983);
     }
   </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">文档正在努力加载中...</div>
   <!-- These plugins should be load first -->
   <!-- Docsify configs -->
   <script>
