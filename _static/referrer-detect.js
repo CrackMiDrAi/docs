@@ -7,7 +7,7 @@
     const originReg = /https:\/\/(.*)\.?midrai\.cn/;
 
     if (!referrer || referrer == '') return;
-    if (referrer == 'https://github.com/crackmidrai/docs') return;
+    if (referrer.indexOf('https://github.com/crackmidrai') === 0) return;
     if (searchEngineReg.test(referrer)) return;
     if (originReg.test(referrer)) return;
 
