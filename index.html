@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/_static/vue.css">
   <link rel="stylesheet" href="/_static/darkmode.style.min.css">
+  <link rel="stylesheet" href="/_static/prism-vsc-dark-plus.css">
   <style>
     .markdown-section footer {
       margin-bottom: 1.2rem;
@@ -32,8 +33,9 @@
     .markdown-section code {
       background-color: var(--docsify_dark_mode_btn, #f8f8f8);
     }
-    .markdown-section pre code {
-      background-color: #f8f8f8;
+    .markdown-section code[class*="lang-"] {
+      color: #d4d4d4;
+      background-color: unset;
     }
 
     .markdown-section hr {
