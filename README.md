@@ -1,5 +1,7 @@
 # Docs
 
+[![Build MkDocs](https://github.com/CrackMiDrAi/docs/actions/workflows/build.yml/badge.svg)](https://github.com/CrackMiDrAi/docs/actions/workflows/build.yml)
+
 请访问 https://docs.midrai.cn
 
 ## 本地预览
