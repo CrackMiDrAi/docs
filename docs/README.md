@@ -9,9 +9,9 @@
 
 本文档是 CrackMiDrAiTeam 制作的小爱老师破解公开文档，本页将展示可以被公开的内容。
 
-在阅读本文档时，请善用左侧目录（手机端请点击左下角三横线）及其最上方的搜索框。
+在阅读本文档时，请善用左侧目录（手机端请点击右上角三横线）以及右上方的搜索功能。
 
-本文档托管在 GitHub 上，并使用 [docsify](https://docsify.js.org/) 驱动，你可以 [前往我们的仓库](https://github.com/CrackMiDrAiTeam/docs) 以提交 Pull Request 或者 Issue。
+本文档托管在 GitHub 上，并使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 驱动，你可以 [前往我们的仓库](https://github.com/CrackMiDrAiTeam/docs) 以提交 Pull Request 或者 Issue。
 
 ## 在寻找破解教程？
 
