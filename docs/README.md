@@ -13,10 +13,6 @@
 
 本文档托管在 GitHub 上，并使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 驱动，你可以 [前往我们的仓库](https://github.com/CrackMiDrAiTeam/docs) 以提交 Pull Request 或者 Issue。
 
-## 在寻找破解教程？
-
-请点 [这里](破解教程/%E5%B0%8F%E7%99%BD%E5%90%91%E6%95%99%E7%A8%8B.md)
-
 ## 贡献人员
 
 您可以到 [贡献人员列表](https://github.com/CrackMiDrAi/docs/graphs/contributors) 查看本文档的贡献人员。十分感谢他们的努力！
