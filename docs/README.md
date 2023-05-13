@@ -16,3 +16,9 @@
 ## 贡献人员
 
 您可以到 [贡献人员列表](https://github.com/CrackMiDrAi/docs/graphs/contributors) 查看本文档的贡献人员。十分感谢他们的努力！
+
+## LICENSE
+
+[![CC BY-NC-SA 4.0 Badge](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+本仓库的非文档相关内容遵循 [MIT License](https://mit-license.org/)，文档相关内容遵循 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 协议

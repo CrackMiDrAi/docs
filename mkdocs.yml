@@ -10,6 +10,7 @@ theme:
   language: zh
   logo: 'https://avatars.githubusercontent.com/u/102744734?s=200&v=4'
   name: material
+  custom_dir: overrides
   
   include_search_page: false
   search_index_only: false
