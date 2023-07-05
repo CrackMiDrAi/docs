@@ -2,8 +2,6 @@ name: 'Build MkDocs'
 on:
   push:
     branches: [ 'main' ]
-  pull_request:
-    branches: [ 'main' ]
 
 permissions:
   contents: read
