@@ -4,13 +4,14 @@
 {
     const referrer = document.referrer.toLowerCase();
     const searchEngineReg = /^https?:\/\/(.*)\.?(sogou|soso|baidu|google|youdao|yahoo|bing|118114|biso|gougou|ifeng|ivc|sooule|niuhu|biso|so|haosou|sm)\.(.{2,})/;
-    const originReg = /https:\/\/([\da-zA-Z\-]*)\.?midrai\.cn/;
+    const originReg = /^https:\/\/([\da-zA-Z\-]*)\.?midrai\.cn/;
+    const localHostReg = /^https?:\/\/((localhost|127\.0\.0\.1)(:\d{1,5}))?/;
 
     if (!referrer || referrer == '') return;
-    if (referrer.indexOf('http://localhost') === 0) return;
     if (referrer.indexOf('https://github.com/crackmidrai') === 0) return;
     if (searchEngineReg.test(referrer)) return;
     if (originReg.test(referrer)) return;
+    if (localHostReg.test(referrer)) return;
 
     return new Promise((res) =>
     {
