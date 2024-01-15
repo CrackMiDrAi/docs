@@ -25,7 +25,7 @@ export default hopeTheme({
   footer: '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0 Badge" /></a>',
   displayFooter: true,
 
-  hotReload: true,
+  // hotReload: true,
 
   // 在这里配置主题提供的插件
   plugins: {
@@ -101,6 +101,11 @@ export default hopeTheme({
 
       // install sandpack-vue3 before enabling it
       // sandpack: true,
+    },
+
+    searchPro: {
+      indexContent: true,
+      autoSuggestions: true,
     },
 
     // 如果你需要 PWA。安装 vuepress-plugin-pwa2 并取消下方注释
