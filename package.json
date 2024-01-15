@@ -1,0 +1,19 @@
+{
+  "name": "crackmidrai-docs",
+  "version": "2.0.0",
+  "description": "Documents of MiDrAI",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-rc.0",
+    "vue": "^3.4.3",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-hope": "2.0.0-rc.11"
+  }
+}
