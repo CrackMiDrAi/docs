@@ -66,5 +66,15 @@ export default sidebar({
         }
       ],
     },
+    {
+      text: '交流论坛',
+      icon: 'user-group',
+      link: 'https://bbs.midrai.cn',
+    },
+    {
+      text: '捐赠支持',
+      icon: 'money-bill',
+      link: 'https://donate.midrai.cn',
+    },
   ],
 });
