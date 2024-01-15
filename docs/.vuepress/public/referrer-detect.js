@@ -4,7 +4,7 @@
 {
     const referrer = document.referrer.toLowerCase();
     const searchEngineReg = /^https?:\/\/(.*)\.?(sogou|soso|baidu|google|youdao|yahoo|bing|118114|biso|gougou|ifeng|ivc|sooule|niuhu|biso|so|haosou|sm)\.(.{2,})/;
-    const originReg = /https:\/\/(.*)\.?midrai\.cn/;
+    const originReg = /https:\/\/([\da-zA-Z\-]*)\.?midrai\.cn/;
 
     if (!referrer || referrer == '') return;
     if (referrer.indexOf('http://localhost') === 0) return;
