@@ -5,7 +5,7 @@
     const referrer = document.referrer.toLowerCase();
     const searchEngineReg = /^https?:\/\/([\da-zA-Z\-]*)\.?(sogou|soso|baidu|google|youdao|yahoo|bing|118114|biso|gougou|ifeng|ivc|sooule|niuhu|biso|so|haosou|sm)\.(.{2,})/;
     const originReg = /^https:\/\/([\da-zA-Z\-]*)\.?midrai\.cn/;
-    const localHostReg = /^https?:\/\/((localhost|127\.0\.0\.1)(:\d{1,5}))?/;
+    const localHostReg = /^https?:\/\/((localhost|127\.0\.0\.1)(:\d{1,5})?)/;
 
     if (!referrer || referrer == '') return;
     if (referrer.indexOf('https://github.com/crackmidrai') === 0) return;
