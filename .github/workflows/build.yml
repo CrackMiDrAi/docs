@@ -26,16 +26,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: npm
-      
-      - name: Checkout Cache
-        uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
       
       - name: Install requirements
-        run: npm ci
+        run: npm install
       
       - name: Build docs
         run: npm run build
