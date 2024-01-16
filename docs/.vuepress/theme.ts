@@ -5,6 +5,7 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://docs.midrai.cn",
   logo: "/logo.svg",
+  logoDark: "/logo-dark.svg",
   repo: 'CrackMiDrAi/docs',
 
   iconAssets: "fontawesome-with-brands",

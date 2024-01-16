@@ -5,6 +5,7 @@ title: 项目主页
 heroText: CrackMiDrAi Docs
 tagline: 小米小爱老师破解公共文档
 heroImage: /logo.svg
+heroImageDark: /logo-dark.svg
 heroFullScreen: true
 actions:
   - text: 破解教程
