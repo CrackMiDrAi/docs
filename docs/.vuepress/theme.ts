@@ -42,7 +42,6 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
-      stylize: [ /* Maybe we will use this later */ ],
       sub: true,
       sup: true,
       tabs: true,

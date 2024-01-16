@@ -15,7 +15,4 @@ export default defineUserConfig({
 
   host: '0.0.0.0',
   port: 6800,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
 });
