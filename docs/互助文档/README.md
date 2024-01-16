@@ -34,4 +34,4 @@ icon: book
 在群文件的驱动与工具文件夹的“小爱老师电脑破解”压缩包内。
 ```
 
-除标准 Markdown 格式外，您还可以参阅 [Material for MkDocs 的 Markdown 语法扩展](https://squidfunk.github.io/mkdocs-material/reference/)。
+除标准 Markdown 格式外，您还可以参阅 [vuepress-theme-hope 的 Markdown 语法扩展](https://theme-hope.vuejs.press/zh/guide/markdown/intro.html)。
