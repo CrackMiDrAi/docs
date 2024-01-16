@@ -1,3 +1,6 @@
+---
+icon: 'fa-brands fa-google'
+---
 # 各种 GSI
 
 **如果你不知道什么是 GSI，请自行[百度](https://www.baidu.com)**
