@@ -17,6 +17,11 @@ export default navbar([
     link: '/各种链接/',
   },
   {
+    text: '免责声明',
+    icon: 'gavel',
+    link: '/免责声明',
+  },
+  {
     text: '交流论坛',
     icon: 'user-group',
     link: 'https://bbs.midrai.cn',
