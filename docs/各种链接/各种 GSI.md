@@ -23,6 +23,7 @@ Havoc OS:
 [Here](https://sourceforge.net/projects/havoc-os/files/a64-ab/)
 ### 需要扩容 / Need to Extend the "System" Partition
 *所有带`Google Mobile Services`的GSI及AOSP*
+
 Lineage OS:
 * [19.1 bvN](https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20231017-UNOFFICIAL-a64_bvN.img.xz/download) /
 [19.1 bvN VNDKLite](https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20231017-UNOFFICIAL-a64_bvN-vndklite.img.xz/download) /
@@ -56,6 +57,9 @@ arm64: ARM 64-bit
 ```
 
 ## 未测试的GSI
-AOSP 14
-    [Vanilla](https://github.com/TrebleDroid/treble_experimentations/releases/download/ci-20231220/system-td-arm64-ab-vanilla.img.xz)
-    [VNDKLite](https://github.com/TrebleDroid/treble_experimentations/releases/download/ci-20231220/system-td-arm64-ab-vndklite-vanilla.img.xz) -->
+AOSP 14:
+* [Vanilla](https://github.com/TrebleDroid/treble_experimentations/releases/download/ci-20231220/system-td-arm64-ab-vanilla.img.xz)
+[VNDKLite](https://github.com/TrebleDroid/treble_experimentations/releases/download/ci-20231220/system-td-arm64-ab-vndklite-vanilla.img.xz)
+    
+crDroid:
+* [Homepage](https://crdroid.net/)
