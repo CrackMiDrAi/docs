@@ -2,7 +2,7 @@
   "name": "crackmidrai-docs",
   "version": "2.0.0",
   "description": "Documents of MiDrAI",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "type": "module",
   "scripts": {
     "build": "vuepress build docs",
