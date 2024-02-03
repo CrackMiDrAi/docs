@@ -3,9 +3,13 @@ icon: file-lines
 ---
 # 破解包更新日志
 
-破解包目前的最新版本是 `v1.2.8`，如果你在破解包中的 `ReadMe` 文档中看到的版本与此不符或没有版本号，请前往 QQ 群 `635236749`/`744645468` 下载最新的破解包。
+破解包目前的最新版本是 `v1.2.9`，如果你在破解包中的 `ReadMe` 文档中看到的版本与此不符或没有版本号，请前往 QQ 群 `635236749`/`744645468` 下载最新的破解包。
 
 请注意，未知来源的破解包可能包含意料之外的行为（如恶意脚本等），请确保您使用的破解包来自上述 QQ 群。
+
+## v1.2.9
+* **更新** 更新了由 [hotspringGG](https://github.com/hotspringGG) 修改的 mtkclient
+* **更新** 更新了 WiFi 版的 TWRP（来自 [CrackMiDrAi/recovery_build](https://github.com/CrackMiDrAi/recovery_build)）
 
 ## v1.2.8
 * **更新** 更新破解包自带的 TWRP（来自 [CrackMiDrAi/recovery_build](https://github.com/CrackMiDrAi/recovery_build)）
