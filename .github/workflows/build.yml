@@ -9,7 +9,18 @@ permissions:
   id-token: write
 
 jobs:
+  check_ci_skip:
+    runs-on: ubuntu-latest
+    outputs:
+      can_skip: ${{ steps.check.outputs.canSkip }}
+    steps:
+      - id: "Check commit message"
+        uses: Legorooj/skip-ci@main
+  
   deploy:
+    needs: check_ci_skip
+    if: ${{ needs.check_ci_skip.outputs.can_skip != 'true' }}
+    
     runs-on: ubuntu-latest
     environment:
       name: github-pages
