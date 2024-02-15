@@ -14,7 +14,8 @@ jobs:
     outputs:
       can_skip: ${{ steps.check.outputs.canSkip }}
     steps:
-      - id: "Check commit message"
+      - name: "Check commit message"
+        id: check
         uses: Legorooj/skip-ci@main
   
   deploy:
