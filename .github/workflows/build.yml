@@ -12,7 +12,7 @@ jobs:
   check_ci_skip:
     runs-on: ubuntu-latest
     outputs:
-      can_skip: ${{ steps.check.outputs.can_skip }}
+      can_skip: ${{ steps.check.outputs.canSkip }}
     steps:
       - id: "Check commit message"
         uses: Legorooj/skip-ci@main
