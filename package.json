@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.2",
-    "vue": "^3.4.15",
+    "vue": "^3.4.19",
     "vuepress": "2.0.0-rc.2",
     "vuepress-plugin-search-pro": "^2.0.0-rc.19",
     "vuepress-theme-hope": "2.0.0-rc.19"
