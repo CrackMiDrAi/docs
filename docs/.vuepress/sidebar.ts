@@ -6,7 +6,7 @@ export default sidebar({
       text: '破解教程',
       icon: 'desktop',
       prefix: "破解教程/",
-      link: "破解教程",
+      link: "破解教程/",
       children: [
         {
           text: '小白向教程',
