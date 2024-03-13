@@ -23,6 +23,7 @@ icon: link
 
 * [老八下载站](https://dl.teio.tk/MIRROR_CN/Xiaomi/Archytas/) [线路二](https://dl.teio.tk/YHC_GL/01-%E5%88%B7%E6%9C%BA%E5%8C%85/%E5%B0%8F%E7%B1%B3/%E5%B0%8F%E7%88%B1%E8%80%81%E5%B8%88/) [线路三](https://dl.teio.tk/MIRROR_GL/Archived/Xiaoai-Teacher/)
 * [MisaLiu 下载站](https://od.misaliu.top/Files/%E5%B0%8F%E7%88%B1%E8%80%81%E5%B8%88/)
+* [TWRP 下载](https://midrai.cn/recovery)
 
 ## 各种应用
 

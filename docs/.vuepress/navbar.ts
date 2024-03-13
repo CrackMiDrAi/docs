@@ -22,6 +22,11 @@ export default navbar([
     link: '/免责声明',
   },
   {
+    text: 'TWRP 下载',
+    icon: 'masks-theater',
+    link: 'https://midrai.cn/recovery',
+  },
+  {
     text: '交流论坛',
     icon: 'user-group',
     link: 'https://bbs.midrai.cn',
