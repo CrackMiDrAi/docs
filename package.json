@@ -15,6 +15,6 @@
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.8",
     "vuepress-plugin-search-pro": "^2.0.0-rc.27",
-    "vuepress-theme-hope": "2.0.0-rc.30"
+    "vuepress-theme-hope": "2.0.0-rc.31"
   }
 }
