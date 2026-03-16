@@ -9,19 +9,7 @@ permissions:
   id-token: write
 
 jobs:
-  check_ci_skip:
-    runs-on: ubuntu-latest
-    outputs:
-      can_skip: ${{ steps.check.outputs.canSkip }}
-    steps:
-      - name: "Check commit message"
-        id: check
-        uses: Legorooj/skip-ci@main
-  
   deploy:
-    needs: check_ci_skip
-    if: ${{ needs.check_ci_skip.outputs.can_skip != 'true' }}
-    
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -29,24 +17,32 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           submodules: true
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          node-version: 20
+          version: latest
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: 'pnpm'
       
-      - name: Install requirements
-        run: npm install
+      - name: Install dependencies
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile
       
       - name: Build docs
-        run: npm run build
+        run: pnpm run build
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: './docs/.vuepress/dist'
       
