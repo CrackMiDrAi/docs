@@ -8,7 +8,6 @@ export default hopeTheme({
   logoDark: "/logo-dark.svg",
   repo: 'CrackMiDrAi/docs',
 
-  iconAssets: "fontawesome-with-brands",
   print: false,
 
   lastUpdated: true,
@@ -26,32 +25,36 @@ export default hopeTheme({
 
   // hotReload: true,
 
+  markdown: {
+    align: true,
+    attrs: true,
+    codeTabs: true,
+    component: true,
+    demo: true,
+    figure: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    sub: true,
+    sup: true,
+    tabs: true,
+    vPre: true,
+  },
+
   plugins: {
     git: true,
+
     components: {
       components: ["Badge", "VPCard"],
     },
 
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      codetabs: true,
-      component: true,
-      demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      mark: true,
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
+    icon: {
+      assets: "fontawesome-with-brands",
     },
 
-    searchPro: {
+    slimsearch: {
       indexContent: true,
-      autoSuggestions: true,
     },
   },
 });

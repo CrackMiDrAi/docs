@@ -11,10 +11,16 @@
     "update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.7",
-    "vue": "^3.4.21",
-    "vuepress": "2.0.0-rc.8",
-    "vuepress-plugin-search-pro": "^2.0.0-rc.27",
-    "vuepress-theme-hope": "2.0.0-rc.30"
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "sass-embedded": "^1.97.3",
+    "vue": "^3.5.29",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.103",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.61"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
