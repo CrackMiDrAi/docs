@@ -7,12 +7,12 @@
 ## 本地预览
 
 ```shell
-# 请先安装好 NodeJS 环境
+# 请先安装好 NodeJS 环境与 pnpm 包管理器
 git clone https://github.com/CrackMiDrAi/docs
 cd docs
 
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## LICENSE
