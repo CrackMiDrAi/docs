@@ -12,15 +12,17 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.61",
     "sass-embedded": "^1.100.0",
     "vue": "^3.5.35",
     "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-hope": "2.0.0-rc.103",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.61"
+    "vuepress-theme-hope": "2.0.0-rc.103"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "esbuild"
+      "@parcel/watcher",
+      "esbuild",
+      "vue-demi"
     ]
   }
 }
