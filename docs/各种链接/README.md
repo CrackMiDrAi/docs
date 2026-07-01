@@ -28,3 +28,11 @@ icon: link
 ## 各种应用
 
 * 小爱老师折腾推荐应用 [https://www.coolapk.com/album/31310012](https://www.coolapk.com/album/31310012)
+* 第三方bilibili [PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)
+* 音乐播放器 [NeriPlayer](https://github.com/cwuom/NeriPlayer)
+* [爱玩机工具箱](https://doc.byyoung.top/)
+
+
+## 其他链接
+* [ApkMirror](https://www.apkmirror.com/)
+* [GitHub](https://github.com/)
