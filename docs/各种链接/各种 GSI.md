@@ -33,9 +33,9 @@ Havoc OS:
 crDroid:
 [crd6.11-20201019-a64-bvN](https://sourceforge.net/projects/treblerom/files/crDRom/2020.10.19/crdrom-v224-201019-a64-bvN.img.xz/download) Android10，镜像大小 1.28GB
 
-![](./crdroid_home.png)
+![](./img/crdroid_home.png)
 
-![](./crdroid_about.jpg)
+![](./img/crdroid_about.jpg)
 
 ::: info 补充
 此版本crDroid自带的webview是过于古老的bromite webview 85，已经过时，且通过常规替换方法安装的webview不能正常工作，建议搜索包名为com.google.android.webview的webview实现。个人推荐145.0.7632.109
