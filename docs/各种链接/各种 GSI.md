@@ -27,12 +27,16 @@ Lineage OS:
 [18.1 bvS VNDKLite](https://sourceforge.net/projects/andyyan-gsi/files/lineage-18.x/lineage-18.1-20240121-UNOFFICIAL-a64_bvS-vndklite.img.xz/download)
 * [19.1 bvN VNDKLite](https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20250606-UNOFFICIAL-a64_bvN-vndklite.img.gz/download?use_mirror=liquidtelecom)
 
+Lineage OS 18.1 截图
+![](./img/los18.1_about.png)
+
 Havoc OS:
 [Here](https://sourceforge.net/projects/havoc-os/files/a64-ab/)
 
 crDroid:
 [crd6.11-20201019-a64-bvN](https://sourceforge.net/projects/treblerom/files/crDRom/2020.10.19/crdrom-v224-201019-a64-bvN.img.xz/download) Android10，镜像大小 1.28GB
 
+crDroid 6.11截图
 ![](./img/crdroid_home.png)
 
 ![](./img/crdroid_about.jpg)
