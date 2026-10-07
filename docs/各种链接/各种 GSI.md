@@ -12,6 +12,13 @@ icon: 'fa-brands fa-google'
 下载:[由 TrebleDroid 维护的 Generic System Image (GSI) list](https://github.com/TrebleDroid/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list)
 
 ## 经过测试能够正常运行的GSI
+
+::: warning 注意 
+由于小爱存在802.11管理帧保护的问题，在Android 11及以上的系统中，SAE Upgrade属性被设置为true,
+，连接使用WPA3 SAE协议的wifi会出现错误，导致无法连接。Android 10及以下没有此问题。
+另外，经过实测，lineageOS 19.1-20250606的phh treble settings中可以关闭SAE Upgrade。
+:::
+
 ### 不需要扩容 / Standard
 Lineage OS:
 * [16.0 bvN](https://sourceforge.net/projects/andyyan-gsi/files/lineage-16.x/lineage-16.0-20191017-UNOFFICIAL-treble_a64_bvN.img.xz/download)
@@ -22,6 +29,14 @@ Lineage OS:
 
 Havoc OS:
 [Here](https://sourceforge.net/projects/havoc-os/files/a64-ab/)
+
+crDroid:
+[crd6.11-20201019-a64-bvN](https://sourceforge.net/projects/treblerom/files/crDRom/2020.10.19/crdrom-v224-201019-a64-bvN.img.xz/download) Android10，镜像大小 1.28GB
+
+::: info 补充
+此版本crDroid自带的webview是过于古老的bromite webview 85，已经过时，且通过常规替换方法安装的webview不能正常工作，建议搜索包名为com.google.android.webview的webview实现。个人推荐145.0.7632.109
+:::
+
 ### 需要扩容 / Need to Extend the "System" Partition
 *所有带`Google Mobile Services`的GSI及AOSP*
 
@@ -62,5 +77,3 @@ AOSP 14:
 * [Vanilla](https://github.com/TrebleDroid/treble_experimentations/releases/download/ci-20231220/system-td-arm64-ab-vanilla.img.xz)
 [VNDKLite](https://github.com/TrebleDroid/treble_experimentations/releases/download/ci-20231220/system-td-arm64-ab-vndklite-vanilla.img.xz)
     
-crDroid:
-* [Homepage](https://crdroid.net/)
